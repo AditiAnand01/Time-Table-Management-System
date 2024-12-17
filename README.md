@@ -36,4 +36,5 @@ Transaction management is used to ensure data consistency and integrity while bo
 - **Database**: MySQL
 
 
-
+![ITTP](images/ITTP.png)
+![ER Diagram](images/ER.png)
