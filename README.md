@@ -37,4 +37,6 @@ Transaction management is used to ensure data consistency and integrity while bo
 
 
 ![ITTP](images/ITTP.png)
+
+### ER Diagram 
 ![ER Diagram](images/ER.png)
