@@ -1,6 +1,6 @@
 # Time Table Management System (TTMS)
 
-The **Time Table Management System (TTMS)** is a robust and flexible platform designed to streamline course scheduling, classroom allocation, and student enrollment for educational institutions like IIT Jammu. It provides features to efficiently manage timetables and resolve conflicts, ensuring smooth academic operations.
+The **Time Table Management System (TTMS)** is a robust and flexible platform designed to streamline course scheduling, classroom allocation, and student enrollment for educational institutions. It provides features to efficiently manage timetables and resolve conflicts, ensuring smooth academic operations.
 
 ## Features
 
