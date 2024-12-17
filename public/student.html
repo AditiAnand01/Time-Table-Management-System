@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="student.css">
+    <script src="student.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Dashboard</h1>
+    </header>
+    <main>
+        <!-- Student Information Section -->
+        <section id="student-info">
+            <h2>Student Information</h2>
+            <p><strong>Name:</strong> <span id="student-name"></span></p>
+            <p><strong>Email:</strong> <span id="student-email"></span></p>
+            <p><strong>Department:</strong> <span id="student-department"></span></p>
+            <p><strong>Batch:</strong> <span id="student-batch"></span></p>
+        </section>
+
+        <!-- Courses Section -->
+        <section id="courses">
+            <h2>Courses Enrolled</h2>
+            <ul id="course-list"></ul>
+        </section>
+
+        <!-- Timetable Section -->
+        <section id="timetable">
+            <h2>Your Timetable</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Time</th>
+                        <th>Course</th>
+                        <th>Classroom</th>
+                        <th>Instructor</th>
+                    </tr>
+                </thead>
+                <tbody id="timetable-body"></tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
+
+

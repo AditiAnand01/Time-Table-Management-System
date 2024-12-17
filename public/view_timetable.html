@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Timetable</title>
+    <link rel="stylesheet" href="view_timetable.css">
+</head>
+<body>
+    <header>
+        <h1>View Timetable</h1>
+    </header>
+    <main>
+        <form id="timetableForm">
+            <label for="batch">Batch:</label>
+            <input type="text" id="batch" name="batch" placeholder="Enter batch (e.g., 2022)" required>
+
+            <label for="branch">Branch:</label>
+            <select id="branch" name="branch" required>
+                <option value="" disabled selected>Select Branch</option>
+                <option value="CS">Computer Science and Engineering</option>
+                <option value="CE">Civil Engineering</option>
+                <option value="CH">Chemical Engineering</option>
+                <option value="EE">Electrical Engineering</option>
+                <option value="ME">Mechanical Engineering</option>
+                <option value="MT">Materials Engineering</option>
+            </select>
+
+            <button type="submit">View Timetable</button>
+        </form>
+        <div id="timetableResults"></div>
+        <h2 style="margin-top: 30px;">Compact Timetable</h2>
+        <div id="compactTimetable"></div>
+
+    </main>
+    <script src="view_timetable.js"></script>
+</body>
+</html>
+

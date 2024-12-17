@@ -1,0 +1,100 @@
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #b7dcfc; /* Light blue background */
+    color: #003366; /* Dark blue text */
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #003366; /* Dark blue header */
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main container */
+main {
+    padding: 20px;
+}
+
+/* Department container */
+#departments-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Individual department styling */
+.department {
+    margin-bottom: 20px;
+    background-color: #ffffff; /* White background */
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #003366; /* Dark blue border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.department h2 {
+    font-size: 22px;
+    color: #003366;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.department ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.department li {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.department a {
+    color: #0066cc; /* Lighter blue for links */
+    text-decoration: none;
+}
+
+.department a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header nav a {
+        font-size: 16px;
+    }
+
+    .department h2 {
+        font-size: 20px;
+    }
+
+    .department li {
+        font-size: 16px;
+    }
+}
+

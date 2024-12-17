@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Admin Dashboard</h1>
+        <button id="logoutBtn">Logout</button>
+    </header>
+
+    <main>
+        <!-- View Slots Section -->
+        <section class="section">
+            <h2>View Slots</h2>
+            <button id="viewSlotsBtn">View All Slots</button>
+            <div id="viewSlotsResults"></div> <!-- Results for Viewing Slots -->
+        </section>
+
+        <!-- Students Info Section -->
+        <section class="section">
+            <h2>Get Number of Students (Dept/Batch wise) for a Course</h2>
+            <form id="studentsDeptBatchForm">
+                <label for="courseCode">Course Code:</label>
+                <input type="text" id="courseCode" name="courseCode" required>
+                <button type="submit">Get Students Info</button>
+            </form>
+            <div id="studentsDeptBatchResults"></div> <!-- Results for Dept/Batch Students -->
+        </section>
+
+        <!-- Student Info for Course Section -->
+        <section class="section">
+            <h2>Get Student Info for a Course</h2>
+            <form id="studentInfoForm">
+                <label for="courseCode">Course Code:</label>
+                <input type="text" id="courseCode" name="courseCode" required>
+                <button type="submit">Get Student Info</button>
+            </form>
+            <div id="studentInfoResults"></div> <!-- Results for Student Info for a Course -->
+        </section>
+
+        <!-- Free Time Slots Section -->
+        <section class="section">
+            <h2>Get Free Time Slots for Course</h2>
+            <form id="freeTimeSlotsForm">
+                <label for="courseCode">Course Code:</label>
+                <input type="text" id="courseCode" name="courseCode" required>
+                <button type="submit">Get Free Slots</button>
+            </form>
+            <div id="freeTimeSlotsResults"></div> <!-- Results for Free Time Slots -->
+        </section>
+
+        <!-- Free Classrooms Section -->
+        <section class="section">
+            <h2>Get Free Classrooms for a Time Slot</h2>
+            <form id="freeClassroomsForm">
+                <label for="timeSlot">Time Slot:</label>
+                <input type="text" id="timeSlot" name="timeSlot" required>
+                <button type="submit">Get Free Classrooms</button>
+            </form>
+            <div id="freeClassroomsResults"></div> <!-- Results for Free Classrooms -->
+        </section>
+
+        <!-- Book Slot Section -->
+        <section class="section">
+            <h2>Book Slot</h2>
+            <form id="bookSlotForm">
+                <label for="bookCourseCode">Course Code:</label>
+                <input type="text" id="bookCourseCode" name="bookCourseCode" required>
+        
+                <label for="bookSlotId">Slot ID:</label>
+                <input type="text" id="bookSlotId" name="bookSlotId" required>
+        
+                <label for="bookClassroomNo">Classroom Number:</label>
+                <input type="text" id="bookClassroomNo" name="bookClassroomNo" required>
+        
+                <button type="submit">Book Slot</button>
+            </form>
+        </section>        
+
+    </main>
+
+    <script src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Dashboard</title>
+    <link rel="stylesheet" href="faculty.css">
+</head>
+<body>
+    <header class="header">
+        <h1 id="facultyName">Welcome, </h1>
+        <p id="facultyEmail"></p>
+        <p id="facultyDepartment"></p>
+    </header>
+
+    <main>
+        <!-- Courses Section -->
+        <section class="section">
+            <h2>Your Courses</h2>
+            <ul id="coursesList"></ul>
+        </section>
+
+        <!-- Schedule Section -->
+        <section class="section">
+            <h2>Your Schedule</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Time</th>
+                        <th>Course</th>
+                        <th>Classroom</th>
+                    </tr>
+                </thead>
+                <tbody id="scheduleTable"></tbody>
+            </table>
+        </section>
+        
+    </main>
+
+    <script src="faculty.js"></script>
+</body>
+</html>
+

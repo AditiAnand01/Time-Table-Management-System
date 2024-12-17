@@ -1,0 +1,122 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf2fb; /* Light blue background */
+    color: #333;
+}
+
+/* Header Styling */
+.header {
+    background-color: #0056b3; /* Blue header */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.header button {
+    background-color: #ff6b6b; /* Soft red button */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.header button:hover {
+    background-color: #d94f4f; /* Darker red on hover */
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.section h2 {
+    color: #0056b3; /* Blue heading text */
+    margin-bottom: 10px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto 20px;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Results Container */
+#freeClassroomsResults, #studentsDeptBatchResults, #studentInfoResults, #freeTimeSlotsResults {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9; /* Soft white background */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #0056b3;
+    color: white;
+    text-transform: uppercase;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background */
+}
+
+
+/* View Slots and Book Slot sections */
+.section h2 {
+    color: #0047AB;
+}
+
+button {
+    background-color: #0047AB;
+    color: white;
+}
+
+button:hover {
+    background-color: #003080;
+}

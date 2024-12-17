@@ -1,0 +1,115 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Light gray background */
+    color: #333; /* Dark text */
+}
+
+/* Header Section */
+.header {
+    background-color: #0047ab; /* Deep blue */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #e0e8f4; /* Slightly lighter white */
+}
+
+/* Section Styling */
+.section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    background-color: #ffffff; /* White cards */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.section h2 {
+    color: #0047ab; /* Deep blue */
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0047ab;
+    display: inline-block;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f8faff; /* Light blue */
+    border: 1px solid #d1e3ff; /* Light blue border */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    color: #0047ab; /* Text in blue */
+    font-weight: bold;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #0047ab; /* Blue header */
+    color: #ffffff; /* White text */
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0; /* Light gray borders */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8faff; /* Light blue for even rows */
+}
+
+tbody tr:hover {
+    background-color: #d1e3ff; /* Highlight on hover */
+    transition: background-color 0.3s ease;
+}
+
+/* Footer Section (optional) */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0047ab; /* Deep blue */
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+/* Button Styling (if needed) */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0047ab;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #003580; /* Slightly darker blue */
+}
