@@ -2,8 +2,11 @@
 
 ### Collaborators
 https://github.com/Khushboo-1607
+
 https://github.com/prathima-23
+
 https://github.com/Chinmay1705
+
 
 The **Time Table Management System (TTMS)** is a robust and flexible platform designed to streamline course scheduling, classroom allocation, and student enrollment for educational institutions. It provides features to efficiently manage timetables and resolve conflicts, ensuring smooth academic operations.
 
